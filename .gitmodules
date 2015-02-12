@@ -7,3 +7,6 @@
 [submodule "libraries/tl-core"]
 	path = libraries/tl-core
 	url = https://github.com/tinfinite/telegram-tl-core.git
+[submodule "libraries/actors"]
+	path = libraries/actors
+	url = https://github.com/tinfinite/telegram-actors.git

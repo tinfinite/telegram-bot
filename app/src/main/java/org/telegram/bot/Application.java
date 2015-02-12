@@ -38,7 +38,10 @@ public class Application {
         disableLogging();
         createApi();
         login();
-        workLoop();
+//        workLoop();
+        for(int i = 0;i < 10;i++) {
+            sendMessageUser(68334372, "hello");
+        }
     }
 
     private static synchronized String generateRandomString(int size) {
